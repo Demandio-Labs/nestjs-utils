@@ -1,10 +1,28 @@
 {
-  "name": "shared-nestjs-utils",
+  "name": "@demandio/shared-nestjs-utils",
   "version": "1.0.0",
-  "main": "index.js",
-  "repository": "https://github.com/demandio/shared-nestjs-utils.git",
+  "license": "UNLICENSED",
   "author": "Engineering Team <engineering@demand.io>",
-  "license": "MIT",
   "description": "Common classes, service providers, managers, modules, etc.",
-  "private": true
+  "private": true,
+  "main": "./dist/shared-nestjs-utils.umd.cjs",
+  "module": "./dist/shared-nestjs-utils.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/shared-nestjs-utils.js",
+      "require": "./dist/shared-nestjs-utils.umd.cjs"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "repository": "https://github.com/demandio/shared-nestjs-utils.git",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
+  "devDependencies": {
+    "typescript": "^5.2.2",
+    "vite": "^4.4.9"
+  }
 }
