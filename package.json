@@ -1,0 +1,10 @@
+{
+  "name": "shared-nestjs-utils",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/demandio/shared-nestjs-utils.git",
+  "author": "Engineering Team <engineering@demand.io>",
+  "license": "MIT",
+  "description": "Common classes, service providers, managers, modules, etc.",
+  "private": true
+}
