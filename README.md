@@ -2,6 +2,8 @@
 
 This repository aims to be an archive for common classes, service providers, managers, modules, etc. that can be re-used in our NestJS projects.
 
+Ideally, stuff that lives inside [NestJS Starter](https://github.com/demandio/nest-starter) should be abstracted to this package, so that all its clones can keep up-to-date with latest implementations.
+
 ## Release
 
 This project uses [_semantic-release_](https://semantic-release.gitbook.io/semantic-release/), which alongside [commitlint](https://commitlint.js.org/#/) helps to automate publishing to NPM.
