@@ -4,9 +4,7 @@ import { PrefixedCacheManagerService } from './prefixed-cache-manager.service';
 import { PrefixedCacheManagerFactory } from './prefixed-cache-manager.factory';
 
 @Module({
-  imports: [
-    ConfigModule,
-  ],
+  imports: [ConfigModule],
   providers: [PrefixedCacheManagerFactory, PrefixedCacheManagerService],
 })
 export class PrefixedCacheModule {}

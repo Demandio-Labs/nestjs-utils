@@ -1,5 +1,3 @@
-import { PrefixedCacheModule } from "./cache/prefixed-cache.module";
+import { PrefixedCacheModule } from './cache/prefixed-cache.module';
 
-export {
-  PrefixedCacheModule,
-};
+export { PrefixedCacheModule };
