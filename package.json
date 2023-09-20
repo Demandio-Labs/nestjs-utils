@@ -28,7 +28,10 @@
   "files": [
     "dist"
   ],
-  "repository": "https://github.com/demandio/shared-nestjs-utils.git",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/demandio/shared-nestjs-utils"
+  },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com"
   },
