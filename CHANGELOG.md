@@ -1,3 +1,10 @@
+## [1.0.2](https://github.com/demandio/shared-nestjs-utils/compare/v1.0.1...v1.0.2) (2023-09-20)
+
+
+### Bug Fixes
+
+* repository information ([48d3d2c](https://github.com/demandio/shared-nestjs-utils/commit/48d3d2ce832e3b08209f4cfd7cf1dd8b2c938a84))
+
 ## [1.0.1](https://github.com/demandio/shared-nestjs-utils/compare/v1.0.0...v1.0.1) (2023-09-20)
 
 
