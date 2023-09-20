@@ -6,17 +6,20 @@ import { Cache } from 'cache-manager';
 export class PrefixedCacheManagerService {
   constructor(
     @Inject(CACHE_MANAGER) private readonly cacheManager: Cache,
+    private readonly prefix: string,
   ) {}
 
-  private readonly prefix = 'merchantAPI_';
-
   async get<T>(key: string): Promise<T | undefined> {
-    const prefixedKey = this.prefix + key;
+    const prefixedKey = this.getPrefixedKey(key);
     return await this.cacheManager.get<T>(prefixedKey);
   }
 
   async set<T>(key: string, value: T, ttl?: number): Promise<void> {
-    const prefixedKey = this.prefix + key;
+    const prefixedKey = this.getPrefixedKey(key);
     await this.cacheManager.set(prefixedKey, value, ttl);
+  }
+
+  private getPrefixedKey(key: string): string {
+    return `${this.prefix}:${key}`;
   }
 }
