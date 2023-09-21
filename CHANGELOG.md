@@ -1,3 +1,10 @@
+## [1.0.4](https://github.com/demandio-labs/nestjs-utils/compare/v1.0.3...v1.0.4) (2023-09-21)
+
+
+### Bug Fixes
+
+* adjust module export ([1afd17c](https://github.com/demandio-labs/nestjs-utils/commit/1afd17c0cd93ea62ba07ccd420f0a1861fff4d44))
+
 ## [1.0.3](https://github.com/demandio-labs/nestjs-utils/compare/v1.0.2...v1.0.3) (2023-09-21)
 
 
