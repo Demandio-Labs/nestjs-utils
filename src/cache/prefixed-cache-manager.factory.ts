@@ -4,7 +4,7 @@ import { Cache } from 'cache-manager';
 import { PrefixedCacheManagerService } from './prefixed-cache-manager.service';
 
 export const PrefixedCacheManagerFactory = {
-  provide: CACHE_MANAGER,
+  provide: PrefixedCacheManagerService,
   useFactory: (cacheManager: Cache, configService: ConfigService) => {
     const prefix = configService.get<string>('CACHE_PREFIX');
     return new PrefixedCacheManagerService(cacheManager, prefix);
