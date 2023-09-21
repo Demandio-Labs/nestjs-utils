@@ -1,3 +1,10 @@
+## [1.0.5](https://github.com/demandio-labs/nestjs-utils/compare/v1.0.4...v1.0.5) (2023-09-21)
+
+
+### Bug Fixes
+
+* make PrefixedCacheModule global ([7521c46](https://github.com/demandio-labs/nestjs-utils/commit/7521c4699c31610208fbf2e1166048a70f5cfe90))
+
 ## [1.0.4](https://github.com/demandio-labs/nestjs-utils/compare/v1.0.3...v1.0.4) (2023-09-21)
 
 
