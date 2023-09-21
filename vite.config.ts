@@ -5,8 +5,8 @@ export default defineConfig({
   build: {
     lib: {
       entry: './src/index.ts',
-      name: 'shared-nestjs-utils',
-      fileName: 'shared-nestjs-utils',
+      name: 'nestjs-utils',
+      fileName: 'nestjs-utils',
     },
     target: 'esnext',
   },

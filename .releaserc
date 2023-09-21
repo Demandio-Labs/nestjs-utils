@@ -25,5 +25,5 @@
     ],
     "@semantic-release/github"
   ],
-  "repositoryUrl": "https://github.com/demandio/shared-nestjs-utils"
+  "repositoryUrl": "https://github.com/demandio-labs/nestjs-utils"
 }

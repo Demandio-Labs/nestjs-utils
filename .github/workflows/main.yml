@@ -3,7 +3,6 @@ on: [pull_request]
 
 env:
   DEMANDIO_ENV: test
-  NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
 
 jobs:
   lint:
