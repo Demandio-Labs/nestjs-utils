@@ -17,11 +17,11 @@
     "format": "npm run prettier:fix && npm run lint:fix"
   },
   "main": "./dist/nestjs-utils.umd.cjs",
-  "module": "./dist/nestjs-utils.js",
+  "module": "./dist/nestjs-utils.mjs",
   "types": "./dist/index.d.ts",
   "exports": {
     ".": {
-      "import": "./dist/nestjs-utils.js",
+      "import": "./dist/nestjs-utils.mjs",
       "require": "./dist/nestjs-utils.umd.cjs"
     }
   },
