@@ -1,8 +1,6 @@
 # Shared NestJS utils
 
-This repository aims to be an archive for common classes, service providers, managers, modules, etc. that can be re-used in our NestJS projects.
-
-Ideally, stuff that lives inside [NestJS Starter](https://github.com/demandio-labs/nest-starter) should be abstracted to this package, so that all its clones can keep up-to-date with latest implementations.
+This repository aims to be an archive for common classes, service providers, managers, modules, etc. that can be re-used in other NestJS projects.
 
 ## Release
 
