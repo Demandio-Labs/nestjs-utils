@@ -1,3 +1,10 @@
+## [1.0.3](https://github.com/demandio-labs/nestjs-utils/compare/v1.0.2...v1.0.3) (2023-09-21)
+
+
+### Bug Fixes
+
+* adjust module filename (again) ([aa5214e](https://github.com/demandio-labs/nestjs-utils/commit/aa5214e231326cbe89618e354e430a69e9a7438b))
+
 ## [1.0.2](https://github.com/demandio-labs/nestjs-utils/compare/v1.0.1...v1.0.2) (2023-09-21)
 
 
