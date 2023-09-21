@@ -1,3 +1,10 @@
+## [1.0.6](https://github.com/demandio-labs/nestjs-utils/compare/v1.0.5...v1.0.6) (2023-09-21)
+
+
+### Bug Fixes
+
+* adjust Prefixed Cache module metadata ([bf0c5b2](https://github.com/demandio-labs/nestjs-utils/commit/bf0c5b20d64093c7503e61df437f20a6d28bf756))
+
 ## [1.0.5](https://github.com/demandio-labs/nestjs-utils/compare/v1.0.4...v1.0.5) (2023-09-21)
 
 
