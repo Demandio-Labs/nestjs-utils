@@ -6,5 +6,6 @@ import { PrefixedCacheManagerFactory } from './prefixed-cache-manager.factory';
 @Module({
   imports: [ConfigModule],
   providers: [PrefixedCacheManagerFactory, PrefixedCacheManagerService],
+  exports: [PrefixedCacheManagerFactory, PrefixedCacheManagerService],
 })
 export class PrefixedCacheModule {}
