@@ -16,13 +16,13 @@
     "prettier:fix": "npm run prettier -- --write",
     "format": "npm run prettier:fix && npm run lint:fix"
   },
-  "main": "./dist/nestjs-utils.umd.cjs",
+  "main": "./dist/nestjs-utils.umd.js",
   "module": "./dist/nestjs-utils.mjs",
   "types": "./dist/index.d.ts",
   "exports": {
     ".": {
       "import": "./dist/nestjs-utils.mjs",
-      "require": "./dist/nestjs-utils.umd.cjs"
+      "require": "./dist/nestjs-utils.umd.js"
     }
   },
   "files": [
