@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/demandio-labs/nestjs-utils/compare/v1.0.0...v1.0.1) (2023-09-21)
+
+
+### Bug Fixes
+
+* remove non-pertinent info from README ([b4d2320](https://github.com/demandio-labs/nestjs-utils/commit/b4d2320bb97c7ac359d83d6f55d88bf3e6813c01))
+
 # 1.0.0 (2023-09-21)
 
 
