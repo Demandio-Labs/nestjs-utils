@@ -1,3 +1,10 @@
+## [1.0.7](https://github.com/demandio-labs/nestjs-utils/compare/v1.0.6...v1.0.7) (2023-09-21)
+
+
+### Bug Fixes
+
+* re-add global annotation... ([007d98a](https://github.com/demandio-labs/nestjs-utils/commit/007d98a69e507077d047e61d5d3a0726cabc53e5))
+
 ## [1.0.6](https://github.com/demandio-labs/nestjs-utils/compare/v1.0.5...v1.0.6) (2023-09-21)
 
 
