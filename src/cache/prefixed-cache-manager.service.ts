@@ -19,6 +19,11 @@ export class PrefixedCacheManagerService {
     await this.cacheManager.set(prefixedKey, value, ttl);
   }
 
+  async delete(key: string): Promise<void> {
+    const prefixedKey = this.getPrefixedKey(key);
+    await this.cacheManager.del(prefixedKey);
+  }
+
   private getPrefixedKey(key: string): string {
     return `${this.prefix}:${key}`;
   }
