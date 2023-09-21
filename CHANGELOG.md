@@ -1,3 +1,11 @@
+## [1.0.8](https://github.com/demandio-labs/nestjs-utils/compare/v1.0.7...v1.0.8) (2023-09-21)
+
+
+### Bug Fixes
+
+* add missing delete method to Cache service ([f08e6b0](https://github.com/demandio-labs/nestjs-utils/commit/f08e6b07ec21bc4fbc608fdfadbcd098f2166f9d))
+* change provider factory to override default Cache ([8355f67](https://github.com/demandio-labs/nestjs-utils/commit/8355f677109b8bc0f649d0ef4c94e30d3da0d422))
+
 ## [1.0.7](https://github.com/demandio-labs/nestjs-utils/compare/v1.0.6...v1.0.7) (2023-09-21)
 
 
