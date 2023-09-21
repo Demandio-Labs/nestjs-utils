@@ -1,6 +1,6 @@
 {
   "name": "@demandio-labs/nestjs-utils",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "license": "UNLICENSED",
   "author": "Engineering Team <engineering@demand.io>",
   "description": "Common classes, service providers, managers, modules, etc.",

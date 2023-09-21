@@ -1,3 +1,10 @@
+## [1.0.9](https://github.com/demandio-labs/nestjs-utils/compare/v1.0.8...v1.0.9) (2023-09-21)
+
+
+### Bug Fixes
+
+* no-longer overrides CACHE_MANAGER ([3bad436](https://github.com/demandio-labs/nestjs-utils/commit/3bad436fecf752d8b60f02550a72ccec5ab46269))
+
 ## [1.0.8](https://github.com/demandio-labs/nestjs-utils/compare/v1.0.7...v1.0.8) (2023-09-21)
 
 
